@@ -1,3 +1,2 @@
-python-dotenv
-pandas
-numpy
+-e .
+-r project_requirements.txt
