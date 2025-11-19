@@ -24,6 +24,8 @@ from sklearn.ensemble import (
 import mlflow
 from urllib.parse import urlparse
 
+import dagshub
+dagshub.init(repo_owner='Ziad-0Waleed', repo_name='NetworkSecurity', mlflow=True)
 
 
 class ModelTrainer:
